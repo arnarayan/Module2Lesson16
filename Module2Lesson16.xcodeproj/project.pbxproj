@@ -8,17 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		0053EBC027B5EADA00555E46 /* Module2Lesson16App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBBF27B5EADA00555E46 /* Module2Lesson16App.swift */; };
-		0053EBC227B5EADA00555E46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBC127B5EADA00555E46 /* ContentView.swift */; };
+		0053EBC227B5EADA00555E46 /* QuoteList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBC127B5EADA00555E46 /* QuoteList.swift */; };
 		0053EBC427B5EADC00555E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053EBC327B5EADC00555E46 /* Assets.xcassets */; };
 		0053EBC727B5EADC00555E46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0053EBC627B5EADC00555E46 /* Preview Assets.xcassets */; };
+		0053EBD227B5EDB800555E46 /* QuoteDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBD127B5EDB800555E46 /* QuoteDetail.swift */; };
+		0053EBD527B5EED000555E46 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBD427B5EED000555E46 /* DataService.swift */; };
+		0053EBD827B5F27C00555E46 /* Quote.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBD727B5F27C00555E46 /* Quote.swift */; };
+		0053EBDA27B5F2C000555E46 /* QuoteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0053EBD927B5F2C000555E46 /* QuoteModel.swift */; };
+		0053EBDC27B5F36D00555E46 /* quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = 0053EBDB27B5F36D00555E46 /* quotes.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0053EBBC27B5EADA00555E46 /* Module2Lesson16.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Module2Lesson16.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0053EBBF27B5EADA00555E46 /* Module2Lesson16App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Module2Lesson16App.swift; sourceTree = "<group>"; };
-		0053EBC127B5EADA00555E46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0053EBC127B5EADA00555E46 /* QuoteList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteList.swift; sourceTree = "<group>"; };
 		0053EBC327B5EADC00555E46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0053EBC627B5EADC00555E46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0053EBD127B5EDB800555E46 /* QuoteDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetail.swift; sourceTree = "<group>"; };
+		0053EBD427B5EED000555E46 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0053EBD727B5F27C00555E46 /* Quote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quote.swift; sourceTree = "<group>"; };
+		0053EBD927B5F2C000555E46 /* QuoteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteModel.swift; sourceTree = "<group>"; };
+		0053EBDB27B5F36D00555E46 /* quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotes.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,12 @@
 		0053EBBE27B5EADA00555E46 /* Module2Lesson16 */ = {
 			isa = PBXGroup;
 			children = (
+				0053EBD327B5EE6100555E46 /* Service */,
+				0053EBD027B5ED4A00555E46 /* View */,
+				0053EBCF27B5ED3E00555E46 /* Data */,
+				0053EBCE27B5ED3300555E46 /* Model */,
+				0053EBCD27B5ED2100555E46 /* ViewModel */,
 				0053EBBF27B5EADA00555E46 /* Module2Lesson16App.swift */,
-				0053EBC127B5EADA00555E46 /* ContentView.swift */,
 				0053EBC327B5EADC00555E46 /* Assets.xcassets */,
 				0053EBC527B5EADC00555E46 /* Preview Content */,
 			);
@@ -65,6 +79,47 @@
 				0053EBC627B5EADC00555E46 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0053EBCD27B5ED2100555E46 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0053EBD927B5F2C000555E46 /* QuoteModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		0053EBCE27B5ED3300555E46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0053EBD727B5F27C00555E46 /* Quote.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0053EBCF27B5ED3E00555E46 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0053EBDB27B5F36D00555E46 /* quotes.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		0053EBD027B5ED4A00555E46 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0053EBC127B5EADA00555E46 /* QuoteList.swift */,
+				0053EBD127B5EDB800555E46 /* QuoteDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0053EBD327B5EE6100555E46 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				0053EBD427B5EED000555E46 /* DataService.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +182,7 @@
 			files = (
 				0053EBC727B5EADC00555E46 /* Preview Assets.xcassets in Resources */,
 				0053EBC427B5EADC00555E46 /* Assets.xcassets in Resources */,
+				0053EBDC27B5F36D00555E46 /* quotes.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +193,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0053EBC227B5EADA00555E46 /* ContentView.swift in Sources */,
+				0053EBDA27B5F2C000555E46 /* QuoteModel.swift in Sources */,
+				0053EBD227B5EDB800555E46 /* QuoteDetail.swift in Sources */,
+				0053EBC227B5EADA00555E46 /* QuoteList.swift in Sources */,
 				0053EBC027B5EADA00555E46 /* Module2Lesson16App.swift in Sources */,
+				0053EBD827B5F27C00555E46 /* Quote.swift in Sources */,
+				0053EBD527B5EED000555E46 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
