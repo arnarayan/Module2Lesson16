@@ -1,0 +1,153 @@
+[
+    {
+        "id":1,
+        "category": "sports",
+        "author": "Jackie Joyner-Kersee",
+        "authorImage" : "jackiejoyner",
+        "imageBackground": "clouds",
+        "quote": "Age is no barrier. It’s a limitation you put on your mind.",
+        "quotes": [
+            "It is better to look ahead and prepare than to look back and regret.",
+            "Those who know why will always beat those who know how.",
+            "The one thing every athlete wants and needs is somebody who's as motivated and committed as she is. Someone who's willing to work hard along with her.",
+            "If I stop to kick every barking dog, I am not going to get where I’m going.",
+            "Don't follow in any footprints, make your own prints. Because, you are the future of tomorrow."
+        ]
+    },
+    {
+        "id":2,
+        "category": "sports",
+        "author": "Wayne Gretzky",
+        "authorImage" : "waynegretzky",
+        "imageBackground": "bird",
+        "quote": "You miss one hundred percent of the shots you don't take.",
+        "quotes": [
+            "A good hockey player plays where the puck is. A great hockey player plays where the puck is going to be.",
+            "When you win, say nothing, when you lose say less.",
+            "The highest compliment that you can pay me is that I work hard every day, that I never dog it.",
+            "Procrastination is one of the most common and deadliest of diseases and its toll on success and happiness is heavy.",
+            "Only one thing is ever guaranteed, that is that you will definitely not achieve the goal if you don’t take the shot."
+        ]
+    },
+    {
+        "id":3,
+        "category": "sports",
+        "author": "Michael Jordan",
+        "authorImage" : "michaeljordan",
+        "imageBackground": "footage",
+        "quote": "To learn to succeed, you must first learn to fail.",
+        "quotes": [
+            "If you do the work you get rewarded. There are no shortcuts in life.",
+            "I've failed over and over and over again in my life and that is why I succeed.",
+            "Some people want it to happen, some wish it would happen, others make it happen.",
+            "I realize im black, but id like to be viewed as a person, and that is everybodys wish.",
+            "I've never lost a game, I just ran out of time."
+            
+        ]
+    },
+    {
+        "id":4,
+        "category": "business",
+        "author": "Steve Jobs",
+        "authorImage" : "stevejobs",
+        "imageBackground": "lake",
+        "quote": "Your time is limited, so don’t waste it living someone else’s life.",
+        "quotes": [
+            "Innovation distinguishes between a leader and a follower.",
+            "I'm convinced that about half of what separates the successful entrepreneurs from the nonsuccessful ones is pure perseverance.",
+            "We’re here to put a dent in the universe. Otherwise why else even be here?",
+            "The people who are crazy enough to think they can change the world are the ones who do.",
+            "Have the courage to follow your heart and intuition. They somehow know what you truly want to become."
+        ]
+    },
+    {
+        "id":5,
+        "category": "business",
+        "author": "Bill Gates",
+        "authorImage" : "billgates",
+        "imageBackground": "city",
+        "quote": "Success is a lousy teacher. It seduces smart people into thinking they can’t lose.",
+        "quotes": [
+            "We all need people who will give us feedback. That’s how we improve.",
+            "Patience is a key element of success.",
+            "It’s fine to celebrate success, but it is more important to heed the lessons of failure.",
+            "Treatment without prevention is simply unsustainable.",
+            "Money has no utility to me beyond a certain point."
+        ]
+    },
+    {
+        "id":6,
+        "category": "business",
+        "author": "Oprah Winfrey",
+        "authorImage" : "oprahwinfrey",
+        "imageBackground": "treeinlake",
+        "quote": "You don't become what you want, you become what you believe.",
+        "quotes": [
+            "When you undervalue what you do, the world will undervalue who you are.",
+            "Surround yourself only with people who are going to take you higher.",
+            "You get in life what you have the courage to ask for",
+            "The biggest adventure you can ever take is to live the life of your dreams.",
+            "So go ahead. Fall down.  The world looks different from the ground."
+        ]
+    },
+    {
+        "id":7,
+        "category": "historical",
+        "author": "Mahatma Gandhi",
+        "authorImage" : "gandhi",
+        "imageBackground": "dust",
+        "quote": "Be the change that you wish to see in the world.",
+        "quotes": [
+            "Live as if you were to die tomorrow. Learn as if you were to live forever.",
+            "An eye for an eye will only make the whole world blind.",
+            "The weak can never forgive. Forgiveness is the attribute of the strong.",
+            "Where there is love there is life.",
+            "The best way to find yourself is to lose yourself in the service of others."
+        ]
+    },
+    {
+        "id":8,
+        "category": "business",
+        "author": "Walt Disney",
+        "authorImage" : "waltdisney",
+        "imageBackground": "mushroom",
+        "quote": "The way to get started is to quit talking and begin doing",
+        "quotes": [
+            "All our dreams can come true, if we have the courage to pursue them.",
+            "It's kind of fun to do the impossible.",
+            "When you're curious, you find lots of interesting things to do.",
+            "Laughter is timeless, imagination has no age, dreams are forever.",
+            "Togetherness, for me, means teamwork."
+        ]
+    },
+    {
+        "id":9,
+        "category": "historical",
+        "author": "Benjamin Franklin",
+        "authorImage" : "benjaminfranklin",
+        "imageBackground": "butterflies",
+        "quote": "Tell me and I forget. Teach me and I remember. Involve me and I learn.",
+        "quotes": [
+            "Love your Enemies, for they tell you your Faults.",
+            "He that falls in love with himself will have no rivals.",
+            "There never was a good war or a bad peace.",
+            "He that lies down with Dogs, shall rise up with fleas.",
+            "Better slip with foot than tongue."
+        ]
+    },
+    {
+        "id":10,
+        "category": "historical",
+        "author": "Aristotle",
+        "authorImage" : "aristotle",
+        "imageBackground": "sand",
+        "quote": "Knowing yourself is the beginning of all wisdom.",
+        "quotes": [
+            "Educating the mind without educating the heart is no education at all.",
+            "No great mind has ever existed without a touch of madness.",
+            "Happiness is the meaning and the purpose of life, the whole aim and end of human existence.",
+            "Patience is bitter, but its fruit is sweet.",
+            "He who has overcome his fears will truly be free."
+        ]
+    }
+]
