@@ -14,22 +14,19 @@ struct QuoteList: View {
     
     var body: some View {
         NavigationView {
-            List(model.quotes) { q in
+            ScrollView{
+                ForEach(model.quotes) { q in
                     NavigationLink(destination: QuoteDetail(quote: q), label: {
-                        HStack(){
-                            Image(q.imageBackground)
-                                .resizable()
-                                .scaledToFill()
-                                .frame(width: 50, height: 50, alignment: .center)
-                                .clipped()
-                                .cornerRadius(5)
-                            Text(q.quote)
-                                .multilineTextAlignment(.leading)
+                        HStack {
+                            CardView(quote: q)
                         }
+
                         
                     })
-
                 }.navigationBarTitle("All Quotes")
+                
+            }
+
         }
     }
 }

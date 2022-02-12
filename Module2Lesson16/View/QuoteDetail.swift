@@ -12,11 +12,27 @@ struct QuoteDetail: View {
     var quote: Quote
     
     var body: some View {
-        VStack {
-            Text(quote.author)
-            Text(quote.category)
-        }
-        
+        ScrollView {
+            VStack(alignment: .leading) {
+                Image(quote.authorImage)
+                    .resizable()
+                    .scaledToFill()
+
+                .padding(.bottom, 1.0)
+                
+                VStack(alignment: .leading) {
+                    ForEach(quote.quotes, id:\.self) { quote in
+                        Text("* " + quote)
+                            .padding([.leading, .bottom], 1.0)
+                    }
+                }
+                .padding(.horizontal, 10.0)
+
+
+ 
+            }
+
+        }.navigationTitle(quote.author)
     }
 }
 
